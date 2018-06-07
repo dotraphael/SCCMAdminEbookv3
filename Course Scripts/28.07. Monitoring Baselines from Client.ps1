@@ -1,0 +1,1 @@
+Start-Process -Filepath ("c:\windows\cmtrace.exe") -ArgumentList ("C:\Windows\ccm\logs\CIAgent.log C:\Windows\ccm\logs\CIDownloader.log C:\Windows\ccm\logs\CITaskMgr.log C:\Windows\ccm\logs\DCMAgent.log C:\Windows\ccm\logs\DCMReporting.log C:\Windows\ccm\logs\DcmWmiProvider.log")

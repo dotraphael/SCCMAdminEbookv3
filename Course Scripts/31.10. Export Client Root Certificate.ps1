@@ -1,0 +1,1 @@
+Get-ChildItem -Path "Cert:\LocalMachine\Root\" | where-object {$_.Subject -eq 'CN=Classroom Root CA, DC=classroom, DC=intranet'} | Export-Certificate -Type CERT -FilePath "C:\TrainingFiles\rootca.cer"
