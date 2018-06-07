@@ -1,0 +1,1 @@
+GET-VM -Name 'CLASSROOM-WKS0001' | GET-VMNetworkAdapter | Connect-VMNetworkAdapter -Switchname 'CLASSROOM-INTERNAL'
